@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+@import url(./css/medias.css);
+@import url(./css/main.css);
+@import url(./css/navbar.css);
+@import url(./css/about-me.css);
+@import url(./css/meus-projetos.css);
+@import url(./css/minhas-habilidades.css);
+@import url(./css/footer.css);
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  min-width: 570px;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  background-color: #003850;
+  font-family: "Raleway", sans-serif;
+}
+
+.about-me-container, .meus-projetos, .habilidades-container{
+  visibility: hidden;
+}

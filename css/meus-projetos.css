@@ -1,0 +1,57 @@
+.meus-projetos {
+  width: 100%;
+  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.meus-projetos .projeto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0.6rem;
+  min-width: 320px;
+  width: 33.33%;
+  max-height: 350px;
+  background-color: #b48440;
+  margin: 1rem;
+  border-radius: 20px;
+  transition: 0.5s;
+  text-align: center;
+  -webkit-box-shadow: 0px 5px 16px 8px rgba(0, 0, 0, 0.37);
+  box-shadow: 0px 5px 16px 8px rgba(0, 0, 0, 0.37);
+}
+
+.meus-projetos .projeto img {
+  min-width: 280px;
+  width: 80%;
+  margin: 0.3rem;
+}
+
+.meus-projetos .projeto .img .card-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.meus-projetos .projeto a {
+  font-size: clamp(0.8rem, 1.5rem, 1.5rem);
+  color: #fff2e8;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 5px;
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #02597f;
+  border-radius: 40px;
+  transition: all 300ms ease;
+  margin-top: 5px;
+}
+
+.meus-projetos .projeto a:hover {
+  background-color: #003850;
+}
